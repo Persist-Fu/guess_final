@@ -1,0 +1,9 @@
+correstness.cpp
+编译指令：g++ correctness.cpp train.cpp guessing.cpp md5.cpp -o main
+编译后执行指令 bash test.sh 1 1
+执行完上述两条指令可得四个字符串的哈希值结果（其中第一个字符串为原correstness.cpp中给出的字符串，后三个都作了修改）
+main.cpp
+启用O2优化的编译指令：g++ main.cpp train.cpp guessing.cpp md5.cpp -o main -O2
+启用O1优化的编译指令：g++ main.cpp train.cpp guessing.cpp md5.cpp -o main -O1
+任一编译后执行指令 bash test.sh 1 1
+执行完编译与测试脚本指令后可得性能测试结果
