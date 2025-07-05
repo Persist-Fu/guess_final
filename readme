@@ -1,4 +1,4 @@
-correstness.cpp
+correstness_guess.cpp
 编译指令：mpic++ -fopenmp correctness_guess.cpp train.cpp guessing.cpp md5.cpp -o main
 编译后执行指令 qsub qsub_mpi.sh
 main.cpp
